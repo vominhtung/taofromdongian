@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .content {
+      background-color: khaki;
+    }
+
+    h1 {
+      background-color: #d8fcd4;
+      color: darkblue;
+      margin: 5px 5px 5px 5px;
+      display: inline-block;
+      width: calc(100% - 10px);
+    }
+
+    .label-style {
+      width: 15%;
+      display: inline-block;
+      text-align: left;
+      color: blue;
+      margin-left: 5px;
+    }
+
+    .margin-bottom-10 {
+      margin-bottom: 10px;
+    }
+
+    .display-flex {
+      display: flex;
+    }
+    .submit {
+      margin-left: 9%;
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<form>
+  <div class="content">
+    <div class="header-style">
+      <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Họ và tên</label>
+      </div>
+      <div>
+        <input class="student-name" type="text" name="yourname" placeholder="Họ và tên"><br>
+      </div>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Ngày sinh</label>
+      </div>
+      <div>
+        <input class="birthday" type="date" name="birthday" placeholder="xx/yy/zzzz"><br>
+      </div>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Giới tính</label>
+      </div>
+      <div>
+        <input class="gender" type="radio" name="gender"><span>Nam</span>
+      </div>
+      <div>
+        <input class="gender" type="radio" name="gender"><span>Nữ</span><br>
+      </div>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Địa chỉ</label>
+      </div>
+      <div>
+        <input class="address" type="text" name="address"><br>
+      </div>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Lớp</label>
+      </div>
+      <div class="label-style">
+        <select class="class" name="class">
+          <option value="Chọn lớp">-Chọn lớp-</option>
+          <option value="12A">12A</option>
+          <option value="12B">12B</option>
+          <option value="12C">12C</option>
+        </select><br>
+      </div>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Email</label>
+      </div>
+      <div>
+        <input class="email" type="text" name="mail"><br>
+      </div>
+    </div>
+    <div class="margin-bottom-10 display-flex">
+      <div class="label-style">
+        <label>Điện thoại</label>
+      </div>
+      <div>
+        <input class="phone" type="text" name="phone-number"><br>
+      </div>
+    </div>
+    <div class="submit">
+      <button class="submit" type="submit" name="submit">Đăng kí</button>
+      <button class="reset" type="reset" name="reset">Nhập lại</button>
+    </div>
+
+  </div>
+</form>
+</body>
+</html>
+
